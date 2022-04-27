@@ -1,0 +1,1 @@
+calcula a média de quatro notas

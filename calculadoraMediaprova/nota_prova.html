@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+//funcoes  
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+//variaveis 
+
+var nota1 = parseInt(prompt("digite sua nota 1"))
+var nota2 = parseInt(prompt("digite sua nota 2"))
+var nota3 = parseInt(prompt("digite sua nota 3"))
+var nota4 = parseInt(prompt("digite sua nota 4"))
+
+var notaFinal = (nota1+nota2+nota3+nota4)/ 4 
+
+// resultado final 
+
+mostra("a nota da sua nota final e " + notaFinal)
+
+pulaLinha()
+pulaLinha()
+
+if (notaFinal>=6.0) {
+    mostra("voce foi aprovado")
+}else{
+	mostra("voce foi reprovado")
+}
+
+
+</script>
